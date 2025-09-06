@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-#define size 100
+#define size 5
 
 class stack 
 {
