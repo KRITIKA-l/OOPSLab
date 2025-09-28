@@ -6,7 +6,7 @@ class A
     public:
         A ()
         {
-            cout << "Class A Constructure Call .\n";
+            cout << "Class A Constructor Call .\n";
         }
         ~A ()
         {
@@ -20,7 +20,7 @@ class B
     public:
         B ()
         {
-            cout << "Class B Constructure Call .\n";
+            cout << "Class B Constructor Call .\n";
         }
         ~B ()
         {
@@ -34,7 +34,7 @@ class C : public A, public B
     public:
         C ()
         {
-            cout << "Class C Constructure Call .\n";
+            cout << "Class C Constructor Call .\n";
         }
         ~C ()
         {
